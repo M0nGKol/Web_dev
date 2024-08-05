@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group E-Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Background color black */
+            color: #fff; /* Text color white */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .header, .footer {
+            background-color: #333; /* Dark gray for header and footer */
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1, .footer p {
+            margin: 0;
+            color: #fff;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #555; /* Lighter gray for section headers */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .profiles, .posters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .profile, .poster {
+            flex: 1;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #555;
+            background-color: #222; /* Dark gray for profile and poster backgrounds */
+            border-radius: 5px;
+        }
+        .profile img, .poster img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .profile h3, .poster h3 {
+            margin-top: 10px;
+        }
+        a {
+            color: #00f; /* Blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Our Group E-Portfolio</h1>
+    </div>
+    <div class="container">
+        <div class="section" id="about-us">
+            <h2>About Us</h2>
+            <div class="profiles">
+                <div class="profile">
+                    <img src="profile1.jpg" alt="Member 1">
+                    <h3>Member 1</h3>
+                    <p>Bio and role description.</p>
+                </div>
+                <!-- Repeat for other members -->
+            </div>
+            <h3>Our Interests</h3>
+            <p>Shared interests and group goals.</p>
+        </div>
+        <div class="section" id="projects">
+            <h2>Our Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of the project, objectives, methodologies, and outcomes.</p>
+                <a href="project1-report.pdf">View Report</a>
+            </div>
+            <!-- Repeat for other projects -->
+        </div>
+        <div class="section" id="poster-gallery">
+            <h2>Poster Gallery</h2>
+            <div class="posters">
+                <div class="poster">
+                    <img src="poster1.jpg" alt="Project Poster 1">
+                    <p>Description of the poster.</p>
+                </div>
+                <!-- Repeat for other posters -->
+            </div>
+        </div>
+        <div class="section" id="achievements">
+            <h2>Achievements</h2>
+            <p>Details of awards and testimonials.</p>
+        </div>
+        <div class="section" id="contact-us">
+            <h2>Contact Us</h2>
+            <p class="contact-info">Email: groupemail@example.com</p>
+            <p class="contact-info">Follow us on <a href="#">Social Media</a></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Our Group. All rights reserved.</p>
+    </div>
+</body>
+</html>
